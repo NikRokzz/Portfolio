@@ -1,0 +1,131 @@
+.side-menu__container{
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #403939;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    color: white
+}
+
+
+
+.main__header, .root__container, .main__footer{
+    transition: 0.5s;
+}
+
+.main__header{
+    height: 68px;
+    background-color: #403939;
+    grid-area: header;
+}
+
+.main__footer {
+    background: #ccc;
+    width: 100%;
+}
+
+.closeBtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.root__container > .main__header  .left__section{
+    display: inline-block;
+}
+
+.root__container > .main__header > .navbar  ul > li {
+    width: 150px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.root__container > .main__header > .navbar  ul > li a{
+    color: white;
+}
+
+.root__container > .main__header > .navbar  ul > li a:hover{
+    color: black;
+}
+
+.navbar-brand{
+    color: white;
+    font-weight: bold;
+    font-family: lato;
+}
+
+nav.inside-nav-bar{
+    position: static;
+}
+
+.TagLine{
+    font-weight: 800;
+    font-family: Garamond;
+    font-size: -webkit-xxx-large;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+}
+
+#main__container {
+    color: white;
+}
+
+.main-container-middle {
+    -webkit-margin-before: 7em;
+    /* background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); */
+    background: #8C43FF;
+}
+
+.main-container-middle-text-headline  > h1:first-of-type {
+    font-weight: 800;
+}
+
+.main-container-middle-outer-box {
+    width: 60%;
+    margin: auto;
+}
+
+.main-container-middle-text-description > h2 {
+    line-height: 1.5;
+    font-size: large;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: #fff;
+    padding: 20px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.grid-box-container-outer {
+    -webkit-margin-before: 4em;
+    -webkit-margin-after: 1em;
+}
+
+.grid-item:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: 1px solid #E6ECF8;
+}
+
+.grid-item:last-child  {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-left: 1px solid #E6ECF8;
+}
+
+.primary-text-box {
+    color: #8C43FF !important;
+    font-size: 18px;
+}
