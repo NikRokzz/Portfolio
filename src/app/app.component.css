@@ -11,8 +11,6 @@
     color: white
 }
 
-
-
 .main__header, .root__container, .main__footer, .main__container{
     transition: 0.5s;
 }
@@ -78,6 +76,7 @@ nav.inside-nav-bar{
     -webkit-margin-before: 7em;
     /* background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); */
     background: #8C43FF;
+    padding-bottom: 30rem;
 }
 
 .main-container-middle-text-headline  > h1:first-of-type {
@@ -111,6 +110,7 @@ nav.inside-nav-bar{
 .grid-box-container-outer {
     -webkit-margin-before: 4em;
     -webkit-margin-after: 1em;
+    margin-top: -130px;
 }
 
 .grid-item:first-child {
@@ -128,4 +128,24 @@ nav.inside-nav-bar{
 .primary-text-box {
     color: #8C43FF !important;
     font-size: 18px;
+}
+
+.grid-content {
+    font-size: 18px;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 2em;
+    line-height: 1.5;
+}
+
+.skill-name {
+    -webkit-margin-before: 2em;
+}
+
+.primary-text-box + ul li {
+    font-size: 18px;
+    list-style-type: none;
+}
+
+.primary-text-box + ul {
+    line-height: 1.5;
 }
