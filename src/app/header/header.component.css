@@ -4,7 +4,7 @@
 
 .main__header{
     height: 68px;
-    background-color: #403939;
+    background-color: rgba(64, 57, 57, 0.34);
     grid-area: header;
 }
 

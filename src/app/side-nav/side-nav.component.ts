@@ -14,9 +14,10 @@ export class SideNavComponent implements OnInit {
 
   closeNav() {
     document.getElementById('side-menu__container').style.width = '0';
-    document.getElementById('main__container').style.marginLeft = '0';
+    // document.getElementById('main__container').style.marginLeft = '0';
     document.getElementById('main__header').style.marginLeft = '0';
-    document.getElementById('main__footer').style.marginLeft = '0';
+    // document.getElementById('main__footer').style.marginLeft = '0';
+    document.getElementById('router__root').style.marginLeft = '0';
     document.body.style.backgroundColor = 'white';
   }
 

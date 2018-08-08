@@ -32,7 +32,7 @@
     -webkit-margin-before: 7em;
     /* background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); */
     background: #8C43FF;
-    padding-bottom: 30rem;
+    padding-bottom: 15em;
 }
 
 .main-container-middle-text-headline  > h1:first-of-type {
@@ -42,6 +42,7 @@
 .main-container-middle-outer-box {
     width: 60%;
     margin: auto;
+    -webkit-margin-before: 5em;
 }
 
 .main-container-middle-text-description > h2 {
@@ -104,4 +105,22 @@
 
 .primary-text-box + ul {
     line-height: 1.5;
+}
+
+.animation-wrapper {
+    position: relative;
+}
+
+.animate {
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    /* position: absolute; */
+    /* visibility: visible!important; */
+}
+
+.slide_up {
+    animation-name: slide_up;
+    -webkit-animation-name: slide_up;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
 }
