@@ -1,0 +1,38 @@
+ <!-- header -->
+ <header id="main__header" [ngClass]="{'main__header-dark': darkModeActive}" class="main__header">
+    <span class="menu-toggle-button pull-left">
+      <span style="font-size:30px;cursor:pointer;color: white;" (click)="openNav()">&#9776;</span>
+    </span>
+
+    <div class="left__section pull-left">
+      <svg class="hamburger__icon" id="Menu_Burger_Icon" data-name="Menu Burger Icon" width="120" height="100">
+        <line x1="20" y1="0" x2="10" y2="50" style="stroke:rgb(255,0,0);stroke-width:2" />
+        <line x1="20" y1="0" x2="40" y2="50" style="stroke:rgb(255,0,0);stroke-width:2" />
+        <line x1="40" y1="50" x2="60" y2="0" style="stroke:rgb(255,0,0);stroke-width:2" />
+        <line x1="60" y1="0" x2="80" y2="50" style="stroke:rgb(255,0,0);stroke-width:2" />
+        <circle cx="85" cy="25" r="25" stroke="white" stroke-width="3" /> Sorry, your browser does not support inline SVG.
+      </svg>
+    </div>
+
+    <nav class="navbar inside-nav-bar">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" >Dummy - Practice</a>
+        </div>
+        <ul class="nav navbar-nav container-fluid">
+          <li class="active">
+            <a routerLink="">Home</a>
+          </li>
+          <li>
+            <a routerLink="/skills">Skills</a>
+          </li>
+          <li>
+            <a routerLink="/projects">Projects</a>
+          </li>
+          <li>
+            <a routerLink="/aboutMe">About Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>

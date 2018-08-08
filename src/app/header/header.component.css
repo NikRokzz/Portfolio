@@ -1,0 +1,37 @@
+.main__header{
+    transition: 0.5s;
+}
+
+.main__header{
+    height: 68px;
+    background-color: #403939;
+    grid-area: header;
+}
+
+.main__header  .left__section{
+    display: inline-block;
+}
+
+.main__header > .navbar  ul > li {
+    width: 150px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.main__header > .navbar  ul > li a{
+    color: white;
+}
+
+.main__header > .navbar  ul > li a:hover{
+    color: black;
+}
+
+.navbar-brand{
+    color: white;
+    font-weight: bold;
+    font-family: lato;
+}
+
+nav.inside-nav-bar{
+    position: static;
+}

@@ -1,0 +1,26 @@
+<!-- Slide Menu-->
+<aside id="side-menu__container" class="side-menu__container" [ngClass]="{'side-menu__container-active': showMenu}" (click)="toggleMenu()">
+  <span class="closeBtn" style="font-size:30px;cursor:pointer" (click)="closeNav()">
+    <i class="fa fa-close" style="font-size:38px;color:white"></i>
+  </span>
+  <nav class="slide-menu" [ngClass]="{'slide-menu-active': showMenu}" (click)="$event.stopImmediatePropagation();">
+    <section class="menu-header text-center">
+      <span class="greeting__text h3">Welcome Back</span>
+      <div class="profile-image__container">
+        <!-- https://media.licdn.com/dms/image/C4E03AQEt4vLMf-hHBQ/profile-displayphoto-shrink_100_100/0?e=1538611200&v=beta&t=lBBMWMDYuFT3OK8VivpEkGGGNQDn8fiOXimvW3wrQQM -->
+        <img src="" alt="profile-image" style="display: block;margin: auto;" class="profile__image img-responsive img-circle">
+      </div>
+      <div class="account-details container-fluid">
+        <span class="name__text">Nikhil Malewar</span>
+        <br>
+        <span class="email__text">nikhilmalewar@gmail.com</span>
+      </div>
+    </section>
+    <section class="menu-body">
+
+    </section>
+    <section class="menu-footer">
+
+    </section>
+  </nav>
+</aside>

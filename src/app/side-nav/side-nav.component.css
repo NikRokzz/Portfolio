@@ -1,0 +1,12 @@
+.side-menu__container{
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #403939;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    color: white
+}
