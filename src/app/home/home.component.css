@@ -124,3 +124,18 @@
     animation-timing-function: ease;
     -webkit-animation-timing-function: ease;
 }
+
+.slide_left {
+    animation-name: slide_left;
+    -webkit-animation-name: slide_left;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+.scale_shine {
+    animation-name: scale_shine;
+    animation-delay: 1.5s;
+    -webkit-animation-name: scale_shine;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+}
